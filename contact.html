@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160808716-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-160808716-5');
+    </script>
+    <meta charset="utf-8">
+    <title>Joanna Ye Portfolio</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <a href="#main" class="jump">Jump to Content</a>
+    <header class="header">
+      <h2 class="logo"><a href="index.html">Joanna Ye</a></h2>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a id="current" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="intro" id="main">
+        <div class="greeting">
+          <h1>Stay in Touch!</h1>
+        </div>
+      </div>
+
+      <div class="contact-text">
+        <p>At UMSI, I worked on several UX projects with clients including <a href="https://www.pawnguru.com/" id="link1">PawnGuru</a>, the <a href="https://www.michiganfostercarecloset.org/" id="link2">Michigan Foster Care Closet</a>, and The University of Michigan <a href="https://mlead.umich.edu/" id="link3">M-LEAD website</a>.</p>
+        <br><br>
+        <p>I am also currently working as a User Experience Research Fellow at the <a href="https://ai.umich.edu/" id="link4">Center for Academic Innovation</a> at the University of Michigan.</p>
+        <br><br>
+        <p>These experiences taught me to be empathetic and truly understand what users need and want.</p>
+        <br><br>
+        <p>If you would like to know more about my experiences, please get in touch!</p>
+      </div>
+
+      <div class="contact_container">
+        <form class="contact">
+          <h2>Contact Form</h2>
+          <!-- <label>Name</lable> -->
+          <input aria-label="name" type="text" id="name" placeholder="Your Name" required/>
+          <br><br>
+
+          <!-- <label>Email</label> -->
+          <input aria-label="email" type="email" id="email" placeholder="Your Email Address" required/>
+          <br><br>
+
+          <!-- <label>Phone Number</label> -->
+          <input aria-label="tel" type="tel" id="phone" placeholder="Your Phone Number (optional)"/>
+          <br><br>
+
+          <!-- <label>Message</label> -->
+          <textarea aria-label="message" id="message" placeholder="Type your message here..." required></textarea>
+          <br><br>
+
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+
+      <footer>
+        <div class="footer">
+          <p> Designed & Coded by Jiayuan (Joanna) Ye &copy; 2020</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
