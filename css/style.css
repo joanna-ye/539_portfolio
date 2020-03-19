@@ -84,24 +84,24 @@ h1{
   margin-bottom: 50px;
 }
 
+.intro-grid{
+  display: grid;
+}
+
 .intro-content{
   font-size: 20px;
   font-weight: normal;
-  margin-top: 50px;
+  margin: 20px auto;
   line-height: 40px;
   text-align: center;
-}
-
-.intro-content h2{
-  display: inline-block;
 }
 
 .line-break{
   border-top: 3px solid black;
   width: 10%;
-  margin-left: 45%;
+  margin: 0 auto;
   margin-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 /* styling of projects display - using grid and flip-card */
@@ -373,7 +373,6 @@ h1{
   }
 
   .grid-container{
-    display: grid;
     grid-template-columns: 1fr;
     margin-top: 50px;
   }
@@ -407,7 +406,6 @@ h1{
   }
 
   .grid-container{
-    display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 50px;
   }
